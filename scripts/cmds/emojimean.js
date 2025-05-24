@@ -13,17 +13,17 @@ const langsSupported = [
 
 module.exports = {
 	config: {
-		name: "emojimean",
-		alias: ["em", "emojimeaning", "emojimean"],
+		name: "معاني",
+		alias: ["em", "معنى", "ايجاد"],
 		version: "1.4",
-		author: "NTKhang",
+		author: "يونو",
 		countDown: 5,
 		role: 0,
 		description: {
 			vi: "Tìm nghĩa của emoji",
-			en: "Find the meaning of emoji"
+			en: "ايجاد او معرفة معنى ايموجي"
 		},
-		category: "wiki",
+		category: "بحث",
 		guide: {
 			vi: "   {pn} <emoji>: Tìm nghĩa của emoji",
 			en: "   {pn} <emoji>: Find the meaning of emoji"
@@ -40,12 +40,12 @@ module.exports = {
 			notHave: "Không có"
 		},
 		en: {
-			missingEmoji: "⚠️ You have not entered an emoji",
-			meaningOfEmoji: "📌 Meaning of emoji %1:\n\n📄 First meaning: %2\n\n📑 More meaning: %3%4\n\n📄 Shortcode: %5\n\n©️ Source: %6\n\n📺 Below are images of the emoji displayed on some platforms:",
-			meaningOfWikipedia: "\n\n📝 React to this message to see the meaning \"%1\" from Wikipedia",
-			meanOfWikipedia: "📑 Meaning of \"%1\" on Wikipedia:\n%2",
-			manyRequest: "⚠️ The bot has sent too many requests, please try again later",
-			notHave: "Not have"
+			missingEmoji: "⚠️ لم تقم بإدخال ايموجي🗿",
+			meaningOfEmoji: "📌 معنى الايموجي %1:\n\n📄 المعنى الاول: %2\n\n📑 معاني اخرى: %3%4\n\n📄 كود صغير: %5\n\n©️ المصدر: %6\n\n📺 فيما يلي صور للرموز التعبيرية المعروضة على بعض المنصات:",
+			meaningOfWikipedia: "\n\n📝 تفاعل مع هذه الرسالة 🤭 \"%1\"",
+			meanOfWikipedia: "📑 معنى \"%1\" في ويكيبيديا:\n%2",
+			manyRequest: "⚠️ لقد أرسل البوت عددًا كبيرًا جدًا من الطلبات, please try again later",
+			notHave: "غير موجود 😼"
 		}
 	},
 

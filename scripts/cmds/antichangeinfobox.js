@@ -2,14 +2,14 @@ const { getStreamFromURL, uploadImgbb } = global.utils;
 
 module.exports = {
 	config: {
-		name: "antichangeinfobox",
+		name: "حفظ",
 		version: "1.9",
-		author: "NTKhang",
+		author: "يونو",
 		countDown: 5,
 		role: 0,
 		description: {
 			vi: "Bật tắt chức năng chống thành viên đổi thông tin box chat của bạn",
-			en: "Turn on/off anti change info box"
+			en: "تشغيل/الغاء تغيير معلومات المجموعة"
 		},
 		category: "box chat",
 		guide: {
@@ -47,23 +47,23 @@ module.exports = {
 			antiChangeEmojiAlreadyOn: "Hiện tại box chat của bạn đang bật chức năng cấm thành viên đổi emoji"
 		},
 		en: {
-			antiChangeAvatarOn: "Turn on anti change avatar box chat",
-			antiChangeAvatarOff: "Turn off anti change avatar box chat",
-			missingAvt: "You have not set avatar for box chat",
-			antiChangeNameOn: "Turn on anti change name box chat",
-			antiChangeNameOff: "Turn off anti change name box chat",
-			antiChangeNicknameOn: "Turn on anti change nickname box chat",
-			antiChangeNicknameOff: "Turn off anti change nickname box chat",
-			antiChangeThemeOn: "Turn on anti change theme box chat",
-			antiChangeThemeOff: "Turn off anti change theme box chat",
-			antiChangeEmojiOn: "Turn on anti change emoji box chat",
-			antiChangeEmojiOff: "Turn off anti change emoji box chat",
-			antiChangeAvatarAlreadyOn: "Your box chat is currently on anti change avatar",
-			antiChangeAvatarAlreadyOnButMissingAvt: "Your box chat is currently on anti change avatar but your box chat has not set avatar",
-			antiChangeNameAlreadyOn: "Your box chat is currently on anti change name",
-			antiChangeNicknameAlreadyOn: "Your box chat is currently on anti change nickname",
-			antiChangeThemeAlreadyOn: "Your box chat is currently on anti change theme",
-			antiChangeEmojiAlreadyOn: "Your box chat is currently on anti change emoji"
+			antiChangeAvatarOn: "تشغيل وضع حفظ صورة المجموعة",
+			antiChangeAvatarOff: "ايقاف وضع حفظ صورة المجموعة",
+			missingAvt: "لا يوجد صورة للمجموعة",
+			antiChangeNameOn: "تشغيل وضع حفظ اسم المحموعة",
+			antiChangeNameOff: "ايقاف وضع حفظ اسم المجموعة",
+			antiChangeNicknameOn: "تشغيل وضع حفظ الكنيات",
+			antiChangeNicknameOff: "ايقاف وضع حفظ الكنيات",
+			antiChangeThemeOn: "تشغيل وضع حفظ الخلفية",
+			antiChangeThemeOff: "ايقاف وضع حفظ الخلفية",
+			antiChangeEmojiOn: "تشغيل وضع حفظ الايموجي",
+			antiChangeEmojiOff: "ايقاف وضع حفظ الايموجي",
+			antiChangeAvatarAlreadyOn: "وضع حفظ الصورة مشغل✅",
+			antiChangeAvatarAlreadyOnButMissingAvt: "وضع حفظ الصورة مشغل✅لكن الشات لا يملك صورة😹",
+			antiChangeNameAlreadyOn: "وضع حفظ الاسم مشغل✅",
+			antiChangeNicknameAlreadyOn: "وضع حفظ الكنيات مشغل✅",
+			antiChangeThemeAlreadyOn: "وضع حفظ الخلفية مشغل✅",
+			antiChangeEmojiAlreadyOn: "وضع حفظ الايموجي مشغل✅"
 		}
 	},
 

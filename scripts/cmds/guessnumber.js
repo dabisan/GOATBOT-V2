@@ -20,17 +20,17 @@ const rows = [
 
 module.exports = {
 	config: {
-		name: "guessnumber",
-		aliases: ["guessnum"],
+		name: "تخمين",
+		aliases: ["خمن"],
 		version: "1.1",
-		author: "NTKhang",
+		author: "يونو",
 		countDown: 5,
 		role: 0,
 		description: {
 			vi: "Game đoán số",
-			en: "Guess number game"
+			en: "لعبة تخمين الرقم"
 		},
-		category: "game",
+		category: "العاب",
 		guide: {
 			vi: "  {pn} [4 | 5 | 6] [single | multi]: tạo một bàn chơi mới, với:"
 				+ "\n    4 5 6 là số chữ số của số cần đoán, mặc định là 4."
@@ -85,24 +85,24 @@ module.exports = {
 			loss: "🤦‍♂️ | Bạn đã thua, số đúng là %1."
 		},
 		en: {
-			charts: "🏆 | Ranking:\n%1",
-			pageInfo: "Page %1/%2",
-			noScore: "⭕ | There is no one who has scored.",
-			noPermissionReset: "⚠️ | You do not have permission to reset the ranking.",
-			notFoundUser: "⚠️ | Could not find user with id %1 in the ranking.",
-			userRankInfo: "🏆 | Ranking information:\nName: %1\nScore: %2\nNumber of games: %3\nNumber of wins: %4\n%5\nNumber of losses: %6\nWin rate: %7%\nTotal play time: %8",
+			charts: "🏆 | الترتيب:\n%1",
+			pageInfo: "الصفحة %1/%2",
+			noScore: "⭕ | لم يحصل احد على نقاط بعد😼.",
+			noPermissionReset: "⚠️ | لا تملك صلاحية لهذا😹.",
+			notFoundUser: "⚠️ | لم يتم ايجاد مستخدم %1 في الترتيب.",
+			userRankInfo: "🏆 | معلومات الترتيب:\n الاسم: %1\n النقاط: %2\n  عدد الجولات: %3\n فاز: %4\n%5\n خسر: %6\nتقييم الفوز: %7%\n المجموع: %8",
 			digits: "%1 digits: %2",
-			resetRankSuccess: "✅ | Reset the ranking successfully.",
-			invalidCol: "⚠️ | Please enter the number of digits of the number to guess is 4, 5 or 6",
-			invalidMode: "⚠️ | Please enter the game mode is single or multi",
-			created: "✅ | Create game successfully.",
-			gameName: "GUESS NUMBER GAME",
-			gameGuide: "⏳ | How to play:\nYou have %1 guesses.\nAfter each guess, you will get additional hints of the number of correct digits (shown on the left) and the number of correct digits (shown on the right).",
-			gameNote: "📄 | Note:\nThe number is formed with digits from 0 to 9, each digit appears only once and the number can start with 0.",
-			replyToPlayGame: "🎮 | Reply to the message below with the image of %1 numbers you guess to play the game.",
-			invalidNumbers: "⚠️ | Please enter %1 numbers you want to guess",
-			win: "🎉 | Congratulations you guessed the number %1 after %2 guesses and received %3 bonus points.",
-			loss: "🤦‍♂️ | You lost, the correct number is %1."
+			resetRankSuccess: "✅ | تم اعادة الترتيب👀.",
+			invalidCol: "⚠️ | الرجاء إدخال عدد أرقام الرقم المطلوب تخمينه، 4 أو 5 أو 6",
+			invalidMode: "⚠️ | الرجاء إدخال وضع اللعبة فردي أو متعدد",
+			created: "✅ | تم انشاء اللعبة.",
+			gameName: "لعبة تخمين رقم😼",
+			gameGuide: "⏳ | شرح اللعبة:\nلديك %1 خمن.\nبعد التخمين, .",
+			gameNote: "📄 | ملاحظة: يتكون الرقم من أرقام من 0 إلى 9، يظهر كل رقم مرة واحدة فقط ويمكن أن يبدأ الرقم بالرقم 0.",
+			replyToPlayGame: "🎮 | قم بالرد على الرسالة أدناه مع صورة الأرقام %1 التي تخمنها للعب اللعبة.",
+			invalidNumbers: "⚠️ | الرجاء إدخال %1 من الأرقام التي تريد تخمينها",
+			win: "🎉 |مبرووك🥹 لقد خمن الرقم %1 بعد %2 التخمينات وتلقيها %3 نقاط اضافية",
+			loss: " | خسرت 😹😹😹 الرقم الصح هو %1."
 		}
 	},
 

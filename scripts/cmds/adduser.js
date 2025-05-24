@@ -3,7 +3,7 @@ const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 module.exports = {
 	config: {
-		name: "adduser",
+		name: "اضف",
 		version: "1.5",
 		author: "NTKhang",
 		countDown: 5,
@@ -30,14 +30,14 @@ module.exports = {
 			cannotAddUser: "Bot bị chặn tính năng hoặc người dùng này chặn người lạ thêm vào nhóm"
 		},
 		en: {
-			alreadyInGroup: "Already in group",
-			successAdd: "- Successfully added %1 members to the group",
-			failedAdd: "- Failed to add %1 members to the group",
-			approve: "- Added %1 members to the approval list",
-			invalidLink: "Please enter a valid facebook link",
-			cannotGetUid: "Cannot get uid of this user",
-			linkNotExist: "This profile url does not exist",
-			cannotAddUser: "Bot is blocked or this user blocked strangers from adding to the group"
+			alreadyInGroup: "موجود هون بالفعل",
+			successAdd: "- تم اضافة %1 الى المجموعة🤭🩷",
+			failedAdd: "- فشل اضافة %1 الى المجموعة🥲",
+			approve: "- تم اضافة %1 لقائمة الطلبات",
+			invalidLink: "ادخل رابط صحيح🫥",
+			cannotGetUid: "فشل🥲",
+			linkNotExist: "فشل🥲",
+			cannotAddUser: "فشل🥲"
 		}
 	},
 

@@ -2,16 +2,16 @@ const moment = require("moment-timezone");
 
 module.exports = {
 	config: {
-		name: "daily",
+		name: "هدية",
 		version: "1.2",
 		author: "NTKhang",
 		countDown: 5,
 		role: 0,
 		description: {
 			vi: "Nhận quà hàng ngày",
-			en: "Receive daily gift"
+			en: "الحصول على هدية يومية"
 		},
-		category: "game",
+		category: "العاب",
 		guide: {
 			vi: "   {pn}: Nhận quà hàng ngày"
 				+ "\n   {pn} info: Xem thông tin quà hàng ngày",
@@ -39,15 +39,15 @@ module.exports = {
 			received: "Bạn đã nhận được %1 coin và %2 exp"
 		},
 		en: {
-			monday: "Monday",
-			tuesday: "Tuesday",
-			wednesday: "Wednesday",
-			thursday: "Thursday",
-			friday: "Friday",
-			saturday: "Saturday",
-			sunday: "Sunday",
-			alreadyReceived: "You have already received the gift",
-			received: "You have received %1 coin and %2 exp"
+			monday: "الاثنين",
+			tuesday: "الثلاثاء",
+			wednesday: "الاربعاء",
+			thursday: "الخميس",
+			friday: "الجمعة",
+			saturday: "السبت",
+			sunday: "الاحد",
+			alreadyReceived: "لقد حصلت على مكافئتك بالفعل😼",
+			received: "حصلت على %1 من المال و %2 نقاط"
 		}
 	},
 

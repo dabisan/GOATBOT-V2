@@ -28,8 +28,8 @@ module.exports = {
 			syntaxError: "Sai cú pháp, chỉ có thể dùng {pn} on hoặc {pn} off"
 		},
 		en: {
-			turnedOn: "Turned on the mode only admin of group can use bot",
-			turnedOff: "Turned off the mode only admin of group can use bot",
+			turnedOn: "يمكن للادمن فقط استعمال البوت🙂",
+			turnedOff: "يمكن للجميع استعمال البوت🥹",
 			turnedOnNoti: "Turned on the notification when user is not admin of group use bot",
 			turnedOffNoti: "Turned off the notification when user is not admin of group use bot",
 			syntaxError: "Syntax error, only use {pn} on or {pn} off"

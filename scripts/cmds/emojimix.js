@@ -2,14 +2,14 @@ const axios = require("axios");
 
 module.exports = {
 	config: {
-		name: "emojimix",
+		name: "دمج",
 		version: "1.4",
-		author: "NTKhang",
+		author: "يونو",
 		countDown: 5,
 		role: 0,
 		description: {
 			vi: "Mix 2 emoji lại với nhau",
-			en: "Mix 2 emoji together"
+			en: "دمج ايموجين معا"
 		},
 		guide: {
 			vi: "   {pn} <emoji1> <emoji2>"
@@ -26,8 +26,8 @@ module.exports = {
 			success: "Emoji %1 và %2 mix được %3 ảnh"
 		},
 		en: {
-			error: "Sorry, emoji %1 and %2 can't mix",
-			success: "Emoji %1 and %2 mix %3 images"
+			error: "اسف لا يمكن دمج %1 مع %2 😼",
+			success: "ايموجي %1 + %2 = %3 🤭"
 		}
 	},
 

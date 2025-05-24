@@ -3,16 +3,16 @@ const { getStreamFromURL } = global.utils;
 
 module.exports = {
 	config: {
-		name: "dhbc",
+		name: "ايمو",
 		version: "1.3",
-		author: "NTKhang",
+		author: "يونو",
 		countDown: 5,
 		role: 0,
 		description: {
 			vi: "chơi game đuổi hình bắt chữ",
-			en: "play game catch the word"
+			en: "العب لعبة التقاط الكلمة"
 		},
-		category: "game",
+		category: "العاب",
 		guide: {
 			en: "{pn}"
 		},
@@ -24,17 +24,17 @@ module.exports = {
 	langs: {
 		vi: {
 			reply: "Hãy reply tin nhắn này với câu trả lời\n%1",
-			isSong: "Đây là tên bài hát của ca sĩ %1",
+			isSong: "هذا هو اسم الأغنية للمغني %1",
 			notPlayer: "⚠️ Bạn không phải là người chơi của câu hỏi này",
 			correct: "🎉 Chúc mừng bạn đã trả lời đúng và nhận được %1$",
 			wrong: "⚠️ Bạn đã trả lời sai"
 		},
 		en: {
-			reply: "Please reply this message with the answer\n%1",
-			isSong: "This is the name of the song of the singer %1",
-			notPlayer: "⚠️ You are not the player of this question",
-			correct: "🎉 Congratulations you have answered correctly and received %1$",
-			wrong: "⚠️ You have answered incorrectly"
+			reply: "يرجى الرد على هذه الرسالة بالإجابة\n%1",
+			isSong: " هذا هو اسم الاغنية %1",
+			notPlayer: "⚠️ أنت لست اللاعب لهذا السؤال",
+			correct: "🎉 مبروك لقد أجبت بشكل صحيح وحصلت على %1$",
+			wrong: " لقد أجبت بشكل خاطئ🫥"
 		}
 	},
 

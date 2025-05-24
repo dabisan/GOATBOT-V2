@@ -1,16 +1,16 @@
 module.exports = {
 	config: {
-		name: "balance",
+		name: "الرصيد",
 		aliases: ["bal"],
 		version: "1.2",
-		author: "NTKhang",
+		author: "يونو",
 		countDown: 5,
 		role: 0,
 		description: {
 			vi: "xem số tiền hiện có của bạn hoặc người được tag",
-			en: "view your money or the money of the tagged person"
+			en: "معرفة رصيدك او رصيد شخص بواسطة طاغ@"
 		},
-		category: "economy",
+		category: "مال",
 		guide: {
 			vi: "   {pn}: xem số tiền của bạn"
 				+ "\n   {pn} <@tag>: xem số tiền của người được tag",
@@ -25,8 +25,8 @@ module.exports = {
 			moneyOf: "%1 đang có %2$"
 		},
 		en: {
-			money: "You have %1$",
-			moneyOf: "%1 has %2$"
+			money: "لديك %1$🤭",
+			moneyOf: "%1 لديه %2$🤭"
 		}
 	},
 
